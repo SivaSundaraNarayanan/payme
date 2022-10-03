@@ -48,11 +48,11 @@ class _HomeScreenState extends State<HomeScreen> {
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (BuildContext context) => SettingsScreen(),
+                    builder: (BuildContext context) => const SettingsScreen(),
                   ),
                 );
               },
-              icon: Icon(
+              icon: const Icon(
                 Icons.settings,
                 color: Colors.white,
               ),

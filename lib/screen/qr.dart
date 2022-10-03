@@ -13,8 +13,6 @@ class QRScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     String url = generateUri(upi.id, am: am);
 
-    print(url);
-
     return Container(
       decoration: const BoxDecoration(
         gradient: LinearGradient(

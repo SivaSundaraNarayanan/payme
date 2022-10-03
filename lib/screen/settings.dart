@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:payme/app.dart';
 import 'package:payme/design/color.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -25,7 +21,7 @@ class SettingsScreen extends StatelessWidget {
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           leading: IconButton(
-            icon: Icon(
+            icon: const Icon(
               Icons.chevron_left_rounded,
               color: Colors.white,
             ),
@@ -33,9 +29,9 @@ class SettingsScreen extends StatelessWidget {
           ),
         ),
         body: Container(
-          padding: EdgeInsets.symmetric(horizontal: 16.0),
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: Column(
-            children: [
+            children: const [
               // Text(
               //   'Settings',
               //   style: Theme.of(context).primaryTextTheme.titleLarge,
